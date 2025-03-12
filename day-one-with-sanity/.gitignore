@@ -28,3 +28,5 @@ package-lock.json
 
 # Dotenv and similar local-only files
 *.local
+.env
+.env.local
