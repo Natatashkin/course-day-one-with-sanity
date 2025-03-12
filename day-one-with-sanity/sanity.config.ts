@@ -10,7 +10,7 @@ export default defineConfig({
   title: 'Day one with Sanity',
 
   projectId: process.env.SANITY_STUDIO_PROJECT_ID!,
-  dataset: process.env.SANITY_STUDIO_DATASE!,
+  dataset: process.env.SANITY_STUDIO_DATASET!,
 
   plugins: [structureTool({structure, defaultDocumentNode}), visionTool()],
 
